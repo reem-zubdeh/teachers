@@ -1,0 +1,85 @@
+
+.form_intro  {
+    max-width: 80%;
+    margin:auto;
+}
+
+.form_intro form  {
+    font-size: 1.2m;
+}
+.form_intro h5{
+
+    font-weight: bolder;
+}
+
+form h4{
+    color:#013289;
+    font-weight: bold;
+}
+
+form label {
+   min-width: 130px;
+}
+
+form input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    min-width: 300px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #b4b5b6;
+  }
+
+  form input,input::-webkit-input-placeholder{
+    font-size: 15px;
+    color: #959697;
+}
+
+
+
+.course-details label {
+    min-width: 200px;
+}
+
+form select {
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #e8ebee;
+    border-style: solid;
+
+}
+
+.header-form {
+    box-shadow: 5px 5px 9px #e8ebee;
+    background-color: white;
+}
+
+form textarea textarea::-webkit-input-placeholder{
+    min-width: 400px;
+    color: #b4b5b6;
+    font-size: 10px;
+
+}
+
+
+
+.submit-button {
+    float: right;
+    width: 100px;
+    background-color: #04c2f9;
+    color:white;
+    padding:10px;
+    border-style: none;
+    border-radius: 15px;
+
+}
+
+
+submit::-webkit-input-placeholder {
+    color: white;
+} 

@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+.list-container {
+    max-width: 40%;
+    margin: auto;
+    border: 2px;
+    box-shadow: 3px 3px 7px lightgray;
+    padding: 20px;
+    margin-bottom: 80px;
+    background-image: url("../img/pattern1.jpg");
+}
+
+  /* Remove margins and padding from the list */
+  .myUL {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Style the list items */
+  .myUL li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 3px lightgray;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  .myUL li:nth-child(odd) {
+    background: white;
+  }
+  
+  /* Darker background-color on hover */
+  .myUL li:hover {
+    background: #ddd;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  .myUL li.checked {
+    text-decoration: line-through;
+    color:gray;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  .myUL li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 15px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Style the list-header */
+  .list-header {
+    background-color:rgb(138, 177, 228,0);
+    padding: 20px 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+    border-radius: 10px;
+  }
+  
+  .list-header h2{
+    color: #04c2f9;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px white;
+
+  }
+
+  .list-header span {
+    border-radius: 9px;
+    width: 20%;
+    margin-left: 30px;
+  }
+  .list-header input {
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px lightgray;
+    width: 70%;
+
+  }
+  /* Clear floats after the list-header */
+  .list-header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #04c2f9;
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #41cff7;
+  }
+
+  .intro{
+    max-width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+ 
+
+  .intro p{
+    color:#013289;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 30px;
+  }
+
+  .blue-pattern {
+    position: absolute;
+    z-index: -1;
+    top:600px;
+    left: -100px;
+    margin-bottom: -400px;
+  }
+
+  .blue-pattern2 {
+    margin-top: -700px;
+    position: relative;
+    z-index: -1;
+    top:500px;
+    left: -100px;
+  }
+
+
+
+  @media screen and (max-width: 1060px){
+    .list-container{
+    max-width: 50%;
+
+    }
+  }  
+
+  
+  @media screen and (max-width: 995px){
+    .list-container{
+    max-width: 55%;
+
+    }
+  }  
+  @media screen and (max-width: 935px){
+    .list-container{
+    max-width: 60%;
+
+    }
+  }  
+
+
+
+  @media screen and (max-width: 925px){
+    .list-container{
+    max-width: 70%;
+
+    }
+  }  
+
+  
+  @media screen and (max-width: 870px){
+    .list-container{
+    max-width: 80%;
+    }
+  }  
+
+  @media screen and (max-width: 820px){
+    .list-container{
+    max-width: 90%;
+    }
+  .intro p{
+    color:#013289;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+  }
+    
+  }  
+
+  
+  @media screen and (max-width: 600px){
+    .list-container{
+    max-width: 90%;
+    }
+  
+    .list-header span{
+      margin-left: 0px;
+      width: 30%;
+    }
+    .list-header {
+      padding: 2px;
+      
+    }
+
+    .list-container ul{
+      font-size: 6px;
+    }
+    
+    .myUL{
+      font-size: 6px;
+    }
+  }  
+
+  

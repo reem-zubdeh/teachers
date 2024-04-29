@@ -1,0 +1,89 @@
+#container{
+    border:1px solid white;
+    border-radius :20px;
+    width:500px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    background : white;
+    margin-bottom: 90px;
+    box-shadow: 2px 2px 12px lightgray;
+  }
+  
+  #timer{ 
+    color:#04c2f9; 
+    font-size:50px; 
+    margin:10px auto;
+    border : 5px solid #04c2f9;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+    padding-top: -10px;
+  }
+  
+  #time{
+    margin-top:60px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  #filler{
+    background : #013289;
+    height: 0px;
+    width: 200px;
+    position:absolute;
+    bottom:0;
+  }
+  
+  #buttons button { 
+    background:rgb(0, 139, 204); 
+    border:none; 
+    color:#fff; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+    box-shadow: 2px 2px 4px lightgray;
+    font-weight: 600;
+  }
+  
+  #buttons button#shortBreak{
+    background :white;
+    box-shadow: 2px 2px 8px lightgray;
+    color:#013289;
+    font-weight: 600;
+  }
+  
+  #buttons button#longBreak{
+    background :white;
+    box-shadow: 2px 2px 8px lightgray;
+    color:#013289;
+    font-weight: 600;
+  }
+  
+  #buttons button#stop{
+    background : rgb(0, 139, 204);
+    box-shadow: 2px 2px 8px lightgray;
+    font-weight: 600;
+  }
+  
+
+  h1{
+      max-width: 330px;
+      margin: auto;
+      margin-top: -40px;
+      margin-bottom: 70px;
+      color:#013289;
+      font-weight: 900;
+      
+  }
