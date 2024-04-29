@@ -421,7 +421,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `type`, `first_name`, `last_name`, `email`, `phone_number`, `password`) VALUES
-(1, 1, 'Charbel', 'Daoud', 'charbel.daoud@lau.edu', '76622141', 'ed5d4bec22d6a3ab64a4b7270182325e377173acdb128f8a32e37c8aef6c83e9'),
+(1, 1, 'Admin', 'Account', 'admin@teachers.edu', '1234567', 'c3cb212b72becc2d500225490300c0328b91ab271d4998f1861207ea6cb8d573'),
 (2, 2, 'sarah', 'abdallah', 'sarah.abdallah@edu.edu', '3232', '4f15e62e98d0eb3f530af0c46bd319235df916c2dda16824bb7d92dd07275196'),
 (3, 3, 'yara', 'chahine', 'yara.chahine@edu.edu', '3232', '12'),
 (10, 2, 'reem', 'zubdeh', 'reem.zubdeh@lau.edu', '87686', 'reem'),
